@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: Roboto;
+     font-weight: bold;
+}
+
+table {
+    width: 600px;
+    border: 2px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px;
+}
+
+tr {
+    border: 2px solid grey;
+}
+
+tr:first-child {
+    background-color: lightblue;
+}
+
+tr:nth-child(even) td {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) td {
+    background-color: lightgoldenrodyellow;
+}
+
+th,
+td {
+    border: 2px solid grey;
+    font-weight: bold;
+}
+
+tr:hover td {
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    opacity: 0.6;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    border: 2px solid grey;
+    margin: 10px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.form-inline > div {
+    display: inline-block;
+}
+
+input[type="text"] {
+    margin: 10px;
+    height: 1.4rem;
+}
